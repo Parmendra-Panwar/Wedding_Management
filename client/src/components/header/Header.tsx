@@ -33,7 +33,7 @@ const Header: React.FC = () => {
 
   return (
     <header className={`${styles.header} ${isScrolled ? styles.scrolled : ""}`}>
-      <div className={styles.logo}>Evoke Event Co.</div>
+      <div className={styles.logo}>Dream Planners Co</div>
       <nav className={styles.nav}>
         <a href="#home" className={styles.link}>
           Home
