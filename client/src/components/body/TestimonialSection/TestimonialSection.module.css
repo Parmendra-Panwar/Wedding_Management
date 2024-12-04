@@ -4,7 +4,9 @@
   color: white;
   padding: 40px;
 }
-
+.hedding{
+  color: #8c54ff;
+}
 .quote {
   margin: 20px auto;
   max-width: 500px;
@@ -39,5 +41,5 @@
 }
 
 .active {
-  background-color: #800080;
+  background-color: #8c54ff;
 }

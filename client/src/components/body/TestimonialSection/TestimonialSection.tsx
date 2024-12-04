@@ -28,7 +28,7 @@ const TestimonialSection: React.FC = () => {
 
   return (
     <section className={styles.testimonial}>
-      <h2>What Our Clients Say</h2>
+      <h2 className={styles.hedding}>What Our Clients Say</h2>
       <div className={styles.quote}>
         <img
           src={testimonials[currentIndex].avatar}

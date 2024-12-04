@@ -6,11 +6,15 @@
 }
 
 .callNow {
-  background-color: #800080;
+  background-color: #8c54ff;
   color: white;
   padding: 10px 20px;
   border: none;
   cursor: pointer;
+  border-radius: 3px;
+}
+.callNow:hover{
+  background-color: #6d32ec;
 }
 
 .servicesList {
@@ -21,8 +25,8 @@
 }
 
 .service {
-  border: 1px solid #800080;
-  color: #800080;
+  border: 1px solid #8c54ff;
+  color: #8c54ff;
   text-align: center;
   display: flex;
   justify-content: center;
