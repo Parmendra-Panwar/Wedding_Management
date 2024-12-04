@@ -20,6 +20,7 @@ const WhyChooseUsSection: React.FC = () => {
         {/* Center Image */}
         <div className={styles.centerImage}>
           <img
+            className={styles.iimmage}
             src="https://res.cloudinary.com/evoke-insignia/images/f_auto,q_auto/v1705410469/600x827-Why-Choose-Us/600x827-Why-Choose-Us.png?_i=AA"
             alt="Center"
           />

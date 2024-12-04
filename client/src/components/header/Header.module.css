@@ -123,13 +123,23 @@
 }
 
 /* RESPONSIVE DESIGN */
+.togglerBnt{
+  display: none;
+}
 @media screen and (max-width: 768px) {
   .nav {
     display: none;
   }
-
-  .ctaButton {
-    font-size: 0.9rem;
-    padding: 8px 15px;
+}
+@media (max-width: 900px) {
+  .ctaButton{
+    display: none;
   }
+}
+@media (max-width: 768px) {
+  .togglerBnt{
+    display: block;
+    margin-right: 30px;
+  }
+ 
 }

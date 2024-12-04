@@ -81,6 +81,7 @@ const Header: React.FC = () => {
         </a>
       </nav>
       <button className={styles.ctaButton}>Whatsapp Us</button>
+      <button className={styles.togglerBnt}>⬜</button>
     </header>
   );
 };
