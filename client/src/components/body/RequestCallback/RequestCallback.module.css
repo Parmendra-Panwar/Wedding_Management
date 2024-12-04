@@ -5,7 +5,7 @@
   text-align: center;
   padding: 2rem;
   font-family: 'Arial', sans-serif;
-  color: #4a004a; /* Adjusted color for similar styling */
+  background-color: black;
   position: relative;
 }
 
@@ -94,4 +94,6 @@
 .quoteButton:hover {
   background-color: #8c54ff;
 }
- 
+.subtitle{
+  color: #fff;
+}
